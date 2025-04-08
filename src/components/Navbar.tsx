@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu } from 'lucide-react';
 import logo from '../../assets/Logo- AeM- final_AeM-Logo-Principal-050D66.png';
+import ContactBtn from './contactbtn';
 
 const Navbar = () => {
   return (
@@ -31,6 +32,7 @@ const Navbar = () => {
               >
                 Sobre Nós
               </a>
+              <ContactBtn/>
             </div>
           </div>
 

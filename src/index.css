@@ -8,11 +8,11 @@
 
 /* ContactBtn.css */
 .btn_contact_container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;
-    background-color: white;     /* Centers vertically */       /* Makes container full viewport height */
+       /* Centers vertically */       /* Makes container full viewport height */
 }
 
 .btn_contact {

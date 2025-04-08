@@ -40,7 +40,7 @@ const Hero = () => {
                 Ajudamos empresas a crescer através de planejamento financeiro estratégico e consultoria especializada.
               </p>
               <div className="flex space-x-6">
-                <motion.div
+                {/*<motion.div
                   whileHover={{ scale: 1.05 }}
                   className="animate-float inline-flex items-center p-4 bg-white/10 rounded-full"
                 >
@@ -57,8 +57,9 @@ const Hero = () => {
                   className="animate-float inline-flex items-center p-4 bg-white/10 rounded-full"
                 >
                   <PieChart className="h-8 w-8 text-beige" />
-                </motion.div>
+                </motion.div>*/}
               </div>
+              <ContactBtn/>
             </motion.div>
 
             {/* Spline Section with Entrance Transition and Bouncing Animation */}
