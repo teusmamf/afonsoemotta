@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ContactBtn from './contactbtn';
 
 const Testimonials = () => {
   const testimonials = [
@@ -57,6 +58,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
+      <ContactBtn/>
     </section>
   );
 };

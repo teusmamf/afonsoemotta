@@ -2,6 +2,7 @@ import React from 'react';
 import Spline from '@splinetool/react-spline';
 import { motion } from 'framer-motion';
 import { Calculator, TrendingUp, PieChart } from 'lucide-react';
+import ContactBtn from './contactbtn';
 
 // Define the CSS for the bouncing animation
 const bounceAnimation = `
@@ -90,6 +91,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <ContactBtn/>
     </>
   );
 };

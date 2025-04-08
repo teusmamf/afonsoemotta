@@ -13,6 +13,7 @@ function App() {
     <div className="min-h-screen bg-lightGray">
       <Navbar />
       <Hero />
+      
       <WhyUs />
       <ContactForm />
       <Services />

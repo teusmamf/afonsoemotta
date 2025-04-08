@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Clock, Users, TrendingUp } from 'lucide-react';
+import ContactBtn from './contactbtn';
 
 const WhyUs = () => {
   const cards = [
@@ -62,6 +63,7 @@ const WhyUs = () => {
           ))}
         </div>
       </div>
+      <ContactBtn/>
     </section>
   );
 };

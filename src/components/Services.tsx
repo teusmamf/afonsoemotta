@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calculator, FileText, PieChart, TrendingUp, DollarSign, Briefcase } from 'lucide-react';
+import ContactBtn from './contactbtn';
 
 const Services = () => {
   const services = [
@@ -70,6 +71,7 @@ const Services = () => {
           ))}
         </div>
       </div>
+      
     </section>
   );
 };
