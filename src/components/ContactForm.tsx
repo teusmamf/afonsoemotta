@@ -21,15 +21,15 @@ const ContactForm = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <Mail className="h-6 w-6 text-navy" />
-                  <span className="text-gray-600">contato@afonsoemotta.com</span>
+                  <span className="text-gray-600">afonsoemottacontabilidade@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="h-6 w-6 text-navy" />
-                  <span className="text-gray-600">(11) 99999-9999</span>
+                  <span className="text-gray-600">(45) 998828-0716</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Building className="h-6 w-6 text-navy" />
-                  <span className="text-gray-600">Av. Paulista, 1000 - São Paulo, SP</span>
+                  <span className="text-gray-600">R. Paraguai, 1135 - sala 04 - Centro, Cascavel - PR, 85805-017</span>
                 </div>
               </div>
             </div>
