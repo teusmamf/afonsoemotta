@@ -5,8 +5,10 @@ import WhyUs from './components/WhyUs';
 import ContactForm from './components/ContactForm';
 import Services from './components/Services';
 import Footer from './components/Footer';
-import Testimonials from './components/Clients';
+import Testimonials from './components/especialties';
 import WhatsAppButton from './components/whatsappbtn';
+import Especialties from './components/especialties';
+import './index.css';
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
       <WhyUs />
       <ContactForm />
       <Services />
-      <Testimonials />
+      <Especialties />
       <Footer />
       <WhatsAppButton/>
     </div>

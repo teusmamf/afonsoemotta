@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden;
+}
 .logo_navbar{
-    width: 3%;
+    width: 110px;
 }
 
 /* ContactBtn.css */

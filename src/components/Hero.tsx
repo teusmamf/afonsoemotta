@@ -40,50 +40,32 @@ const Hero = () => {
                 Ajudamos empresas a crescer através de planejamento financeiro estratégico e consultoria especializada.
               </p>
               <div className="flex space-x-6">
-                {/*<motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="animate-float inline-flex items-center p-4 bg-white/10 rounded-full"
-                >
-                  <Calculator className="h-8 w-8 text-beige" />
-                </motion.div>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="animate-float inline-flex items-center p-4 bg-white/10 rounded-full"
-                >
-                  <TrendingUp className="h-8 w-8 text-beige" />
-                </motion.div>
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="animate-float inline-flex items-center p-4 bg-white/10 rounded-full"
-                >
-                  <PieChart className="h-8 w-8 text-beige" />
-                </motion.div>*/}
+                {/* Ícones removidos */}
               </div>
               <ContactBtn/>
             </motion.div>
 
-            {/* Spline Section with Entrance Transition and Bouncing Animation */}
+            {/* Spline Section - Ajustada para evitar cortes */}
             <motion.div
-              initial={{ opacity: 0, y: 50 }} // Start below and invisible
-              animate={{ opacity: 1, y: 0 }} // Fade in and slide up
-              transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }} // Smooth transition with a slight delay
-              className="relative w-full h-auto lg:col-span-2"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }}
+              className="relative w-full h-auto lg:col-span-2 overflow-visible"
             >
               <div
-                className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] flex items-center justify-center overflow-visible"
+                className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] flex items-center justify-center"
                 style={{
-                  animation: 'bounce 2s infinite ease-in-out', // Apply the bouncing animation
+                  animation: 'bounce 2s infinite ease-in-out',
+                  margin: '0 -10%', // Adiciona margem negativa para compensar
+                  width: '120%', // Aumenta a largura do container
                 }}
               >
                 <Spline
                   scene="https://prod.spline.design/Nq9w8PeZgAr3yQWo/scene.splinecode"
                   style={{
-                    width: '100%',
-                    height: '100%',
-                    maxWidth: '100%',
-                    maxHeight: '100%',
-                    objectFit: 'contain', // Ensure the scene scales without cropping
-                    overflow: 'visible', // Ensure no clipping occurs
+                    width: '1622px',
+                    height: '875px',
+                    transform: 'scale(0.8)', // Aumenta ligeiramente a escala
                   }}
                   className="w-full h-full"
                 />
@@ -92,7 +74,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <ContactBtn/>
     </>
   );
 };

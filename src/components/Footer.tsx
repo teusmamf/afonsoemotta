@@ -21,24 +21,12 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Serviços</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-beige hover:text-white transition-colors">Contabilidade</a></li>
-              <li><a href="#" className="text-beige hover:text-white transition-colors">Planejamento Tributário</a></li>
-              <li><a href="#" className="text-beige hover:text-white transition-colors">Análise Financeira</a></li>
-              <li><a href="#" className="text-beige hover:text-white transition-colors">Consultoria Empresarial</a></li>
-            </ul>
-          </div>
-          
+         
           <div>
             <h4 className="text-lg font-semibold mb-4">Conecte-se Conosco</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-beige hover:text-white transition-colors">
                 <Facebook size={24} />
-              </a>
-              <a href="#" className="text-beige hover:text-white transition-colors">
-                <Twitter size={24} />
               </a>
               <a href="#" className="text-beige hover:text-white transition-colors">
                 <LinkedIn size={24} />

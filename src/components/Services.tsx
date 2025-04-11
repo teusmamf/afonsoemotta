@@ -1,40 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calculator, FileText, PieChart, TrendingUp, DollarSign, Briefcase } from 'lucide-react';
+import { Briefcase, FileText, PieChart, TrendingUp, DollarSign, MapPin, RefreshCcw } from 'lucide-react';
 import ContactBtn from './contactbtn';
 
 const Services = () => {
   const services = [
     {
-      icon: <Calculator className="h-8 w-8 text-navy" />,
-      title: "Contabilidade",
-      description: "Serviços contábeis completos para manter suas finanças organizadas e em conformidade."
-    },
-    {
-      icon: <FileText className="h-8 w-8 text-navy" />,
-      title: "Planejamento Tributário",
-      description: "Planejamento tributário estratégico para minimizar legalmente sua carga tributária."
-    },
-    {
-      icon: <PieChart className="h-8 w-8 text-navy" />,
-      title: "Análise Financeira",
-      description: "Análise financeira aprofundada para ajudar você a tomar decisões empresariais informadas."
-    },
-    {
-      icon: <TrendingUp className="h-8 w-8 text-navy" />,
-      title: "Crescimento Empresarial",
-      description: "Planejamento estratégico para crescimento e expansão sustentável dos negócios."
-    },
-    {
-      icon: <DollarSign className="h-8 w-8 text-navy" />,
-      title: "Folha de Pagamento",
-      description: "Gestão completa da folha de pagamento incluindo cálculos e conformidade fiscal."
-    },
-    {
       icon: <Briefcase className="h-8 w-8 text-navy" />,
-      title: "Consultoria Empresarial",
-      description: "Consultoria especializada para ajudar você a navegar pelos desafios financeiros."
-    }
+      title: "Abertura de empresa",
+      description: "Processo completo e descomplicado para abertura legal do seu negócio, com orientação sobre o melhor enquadramento jurídico."
+    },
+    {
+      icon: <MapPin className="h-8 w-8 text-navy" />,
+      title: "Endereço fiscal",
+      description: "Solução de endereço fiscal válido para regularização do seu CNPJ, garantindo conformidade com as exigências legais."
+    },
+    {
+      icon: <RefreshCcw className="h-8 w-8 text-navy" />,
+      title: "Troca de Contador",
+      description: "Transição segura e sem burocracias para um novo contador, com transferência organizada de todos os documentos fiscais."
+    },
   ];
 
   return (
@@ -46,7 +31,7 @@ const Services = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-navy mb-4">Nossos Serviços</h2>
+          <h2 className="text-4xl font-bold text-navy mb-4">Por que ser nosso cliente?</h2>
           <p className="text-lg text-gray-600">
             Soluções contábeis completas adaptadas às necessidades do seu negócio
           </p>

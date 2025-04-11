@@ -22,7 +22,7 @@ const pulseAnimation = `
 
 const WhatsAppButton = () => {
   // Número do WhatsApp (substitua pelo número real, no formato internacional, ex.: +5511999999999)
-  const phoneNumber = "5511999999999"; // Exemplo, substitua pelo número real
+  const phoneNumber = "+5545988280716"; // Exemplo, substitua pelo número real
   // Mensagem pré-definida
   const message = "Olá, gostaria de saber mais sobre os serviços contábeis!";
   // URL do WhatsApp

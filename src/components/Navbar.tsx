@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu } from 'lucide-react';
 import logo from '../../assets/Logo- AeM- final_AeM-Logo-Principal-050D66.png';
 import ContactBtn from './contactbtn';
+import '../index.css';
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Afonso e Motta Logo"
-              className="h-20 w-20" // Definindo altura fixa e largura automática
+              className="logo_navbar" // Definindo altura fixa e largura automática
             />
           </div>
 
