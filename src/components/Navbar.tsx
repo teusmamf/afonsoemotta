@@ -33,6 +33,22 @@ const Navbar = () => {
               >
                 Sobre Nós
               </a>
+
+              <a
+                href="#services"
+                className="text-navy hover:text-deepBlue px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Serviços
+              </a>
+
+              <a
+                href="#contactform"
+                className="text-navy hover:text-deepBlue px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Contate-nos
+              </a>
+
+
               <ContactBtn/>
             </div>
           </div>
