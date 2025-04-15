@@ -8,12 +8,12 @@ const WhyUs = () => {
     {
       icon: <Shield className="h-8 w-8 text-navy" />,
       title: "Orientação Especializada",
-      description: "Nossa equipe de contadores certificados oferece orientação financeira especializada adaptada às necessidades do seu negócio."
+      description: "Nossa equipe de contadores certificados oferece orientação  especializada adaptada às necessidades do seu negócio."
     },
     {
       icon: <Clock className="h-8 w-8 text-navy" />,
       title: "Entregas Ágeis",
-      description: "Soluções contábeis rápidas e eficientes para atender suas necessidades financeiras com agilidade."
+      description: "Soluções contábeis rápidas e eficientes para atender suas necessidades com agilidade."
     },
     {
       icon: <Users className="h-8 w-8 text-navy" />,
@@ -23,7 +23,7 @@ const WhyUs = () => {
     {
       icon: <TrendingUp className="h-8 w-8 text-navy" />,
       title: "Foco no Crescimento",
-      description: "Planejamento financeiro estratégico focado no crescimento sustentável e lucratividade do negócio."
+      description: "Planejamento tributário estratégico focado no crescimento sustentável e lucratividade do negócio."
     }
   ];
 
