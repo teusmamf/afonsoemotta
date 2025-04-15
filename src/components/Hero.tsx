@@ -36,8 +36,7 @@ const Hero = () => {
               Simplificando a contabilidade <br></br> potencializando  <br></br>seu sucesso.
               </h1>
               <p className="text-lg lg:text-xl mb-8 text-beige leading-relaxed">
-                Transforme a gestão tributária da sua empresa com nossos serviços contábeis profissionais.
-                Ajudamos empresas a crescer através de planejamento financeiro estratégico e consultoria especializada.
+              Auxiliamos empresas a otimizar impostos, evitar riscos fiscais e garantir conformidade, com suporte estratégico personalizado para o seu segmento.
               </p>
               <div className="flex space-x-6">
                 {/* Ícones removidos */}
