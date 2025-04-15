@@ -40,7 +40,7 @@ const Footer = () => {
         
         <div className="border-t border-beige/20 mt-8 pt-8 text-center">
           <p className="text-beige">
-            © {new Date().getFullYear()} Afonso e Motta. Todos os direitos reservados.
+            © {new Date().getFullYear()} Afonso & Motta. Todos os direitos reservados.
           </p>
         </div>
       </div>
