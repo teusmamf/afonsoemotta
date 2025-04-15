@@ -25,7 +25,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Conecte-se Conosco</h4>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/profile.php?id=61557049275112" className="text-beige hover:text-white transition-colors">
+              <a href="https://www.facebook.com/afonsoemotta" className="text-beige hover:text-white transition-colors">
                 <Facebook size={24} />
               </a>
               <a href="https://www.linkedin.com/company/afonsoemottacontabilidade" className="text-beige hover:text-white transition-colors">

@@ -3,7 +3,7 @@ import '../index.css'; // Import the CSS file
 
 const ContactBtn = () => {
   const phoneNumber = "+5545988280716";
-  const message = "Hello! I'm interested in your services.";
+  const message = "Olá ! procuro um contador, gostaria de mais informações!";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

@@ -37,7 +37,7 @@ const WhyUs = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-navy mb-4">
-            Por que a Afonso e Motta é a<br />melhor empresa de contabilidade?
+            Por que a Afonso & Motta é a<br />melhor empresa de contabilidade?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Tenha um especialista no seu negócio, pronto para ajudar você a reduzir custos e aumentar sua lucratividade.
