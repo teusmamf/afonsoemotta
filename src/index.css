@@ -9,6 +9,10 @@ body{
     width: 110px;
 }
 
+.hero_image{
+  width: 1000px;
+}
+
 /* ContactBtn.css */
 .btn_contact_container {
     margin-top: 10px;
