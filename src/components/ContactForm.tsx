@@ -16,7 +16,7 @@ const ContactForm = () => {
             <div className="p-12 bg-beige">
               <h3 className="text-3xl font-bold text-navy mb-6">Entre em Contato</h3>
               <p className="text-gray-600 mb-8">
-                Vamos discutir como podemos ajudar seu negócio a prosperar através de uma gestão contábil especializada.
+                Vamos discutir como podemos ajudar seu negócio a prosperar <br></br>  através de uma gestão contábil especializada.
               </p>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
