@@ -40,7 +40,7 @@ const WhyUs = () => {
             Por que a Afonso e Motta é a<br />melhor empresa de contabilidade?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Tenha um contador online, especialista no seu negócio, pronto para ajudar você a reduzir custos e aumentar sua lucratividade.
+          Tenha um especialista no seu negócio, pronto para ajudar você a reduzir custos e aumentar sua lucratividade.
           </p>
         </motion.div>
 

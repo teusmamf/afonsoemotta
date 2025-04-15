@@ -33,7 +33,7 @@ const Hero = () => {
               className="text-white lg:col-span-1 lg:pr-8"
             >
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                Soluções Contábeis Especializadas para seu Negócio
+              Simplificando a contabilidade, potencializando seu sucesso.
               </h1>
               <p className="text-lg lg:text-xl mb-8 text-beige leading-relaxed">
                 Transforme a gestão financeira da sua empresa com nossos serviços contábeis profissionais.

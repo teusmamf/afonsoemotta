@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Afonso e Motta</h3>
+            <h3 className="text-2xl font-bold mb-4">Afonso & Motta Contabilidade</h3>
             <p className="text-beige">
               Soluções contábeis especializadas para empresas modernas.
             </p>
@@ -28,7 +28,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=61557049275112" className="text-beige hover:text-white transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="text-beige hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/afonsoemottacontabilidade" className="text-beige hover:text-white transition-colors">
                 <LinkedIn size={24} />
               </a>
               <a href="https://www.instagram.com/afonsoemottacontabilidade/" className="text-beige hover:text-white transition-colors">
