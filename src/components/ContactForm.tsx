@@ -14,22 +14,22 @@ const ContactForm = () => {
           className="bg-white rounded-2xl shadow-xl overflow-hidden"
         >
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="p-12 bg-beige">
+            <div className="p-1.5 bg-beige ">
               <h3 className="text-3xl font-bold text-navy mb-6">Entre em Contato</h3>
               <p className="text-gray-600 mb-8">
                 Vamos discutir como podemos ajudar seu negócio a prosperar   através de uma gestão contábil especializada.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <Mail className="h-6 w-6 text-navy" />
+                  <Mail className="icone_mail_contactform" />
                   <span className="text-gray-600 ml-0">afonsoemottacontabilidade@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <Phone className="h-6 w-6 text-navy" />
+                  <Phone className="icone_phone_contactform" />
                   <span className="text-gray-600">(45) 998828-0716</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <Building className="h-6 w-6 text-navy" />
+                  <Building className="icone_building_contactform" />
                   <span className="text-gray-600">R. Paraguai, 1135 - sala 04 - Centro, Cascavel - PR, 85805-017</span>
                 </div>
               </div>

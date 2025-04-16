@@ -49,9 +49,10 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="text-white lg:col-span-1 lg:pr-8"
           >
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
-              Simplificando a contabilidade <br /> potencializando <br /> seu sucesso.
-            </h1>
+           <h1 className="container_simply">
+  <span className="hero-title-line">Simplificando a contabilidade</span>
+  <span className="hero-title-line">potencializando seu sucesso</span>
+</h1>
             <p className="text-lg lg:text-xl mb-8 text-beige leading-relaxed">
               Auxiliamos empresas a otimizar impostos, evitar riscos fiscais e garantir conformidade, com suporte estratégico personalizado para o seu segmento.
             </p>

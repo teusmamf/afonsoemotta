@@ -9,6 +9,7 @@ body{
     width: 110px;
 }
 
+
 .span_email_contact_form{
  margin-left: 0px;
 
@@ -99,3 +100,47 @@ background: linear-gradient(341deg, rgba(0,0,143,0.9921218487394958) 0%, rgba(0,
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
   }
+
+  .icone_mail_contactform{
+    margin-right:15px ;
+    height: 1.5rem; /* 24px */
+    width: 1.5rem;  /* 24px */
+    color: #050D66;  /* Cor navy */
+    min-width: 1.5rem; /* Garante que não vai colapsar */
+    display: block;
+  }
+
+  .icone_phone_contactform{
+    margin-right:3px ;
+    height: 1.5rem; /* 24px */
+    width: 1.5rem;  /* 24px */
+    color: #050D66;  /* Cor navy */
+    min-width: 1.5rem; /* Garante que não vai colapsar */
+   
+  }
+
+  .container_simply{
+    font:bold;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .icone_building_contactform{
+    margin-right:2px ;
+    height: 1.5rem; /* 24px */
+    width: 1.5rem;  /* 24px */
+    color: #050D66;  /* Cor navy */
+    min-width: 1.5rem; /* Garante que não vai colapsar */
+  }
+
+  .hero-title-line {
+    display: block;
+    width: 100%;
+  }
+
+@media only scree and (max-width: 399px){
+  .icone_mail_contactform{
+    margin-right: 5px ;
+  }
+
+}
