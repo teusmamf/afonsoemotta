@@ -24,7 +24,7 @@ const WhatsAppButton = () => {
   // Número do WhatsApp (substitua pelo número real, no formato internacional, ex.: +5511999999999)
   const phoneNumber = "+5545988280716"; // Exemplo, substitua pelo número real
   // Mensagem pré-definida
-  const message = "Olá, gostaria de saber mais sobre os serviços contábeis!";
+  const message = "Olá, Gostaria de saber mais sobre os serviços contábeis!";
   // URL do WhatsApp
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 

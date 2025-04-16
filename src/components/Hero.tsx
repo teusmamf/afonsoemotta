@@ -36,7 +36,7 @@ const styles = `
 
 const Hero = () => {
   return (
-    <div className="pt-16 min-h-screen bg-gradient-to-br from-navy to-deepBlue">
+    <section className="pt-16 min-h-screen bg-gradient-to-br from-navy to-deepBlue" id='home'>
       {/* Injetando os estilos CSS */}
       <style>{styles}</style>
       
@@ -80,7 +80,7 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,9 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Afonso & Motta Contabilidade</h3>
             <p className="text-beige">
-              Soluções contábeis especializadas para empresas modernas.
+            Simplificando a contabilidade
+potencializando
+seu sucesso.
             </p>
           </div>
           

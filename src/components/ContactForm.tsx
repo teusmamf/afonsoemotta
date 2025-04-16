@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, Building } from 'lucide-react';
+import '../index.css';
 
 const ContactForm = () => {
   return (
@@ -18,10 +19,10 @@ const ContactForm = () => {
               <p className="text-gray-600 mb-8">
                 Vamos discutir como podemos ajudar seu negócio a prosperar   através de uma gestão contábil especializada.
               </p>
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
+              <div className="space-y-4">
+                <div className="flex items-center">
                   <Mail className="h-6 w-6 text-navy" />
-                  <span className="text-gray-600">afonsoemottacontabilidade@gmail.com</span>
+                  <span className="text-gray-600 ml-0">afonsoemottacontabilidade@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="h-6 w-6 text-navy" />
