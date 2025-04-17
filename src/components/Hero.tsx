@@ -50,7 +50,7 @@ const Hero = () => {
             className="text-white lg:col-span-1 lg:pr-8"
           >
            <h1 className="container_simply">
-  <span className="hero-title-line">Simplificando a contabilidade</span>
+  <span className="hero-title-line">Simplificando a contabilidade,</span>
   <span className="hero-title-line">potencializando seu sucesso</span>
 </h1>
             <p className="text-lg lg:text-xl mb-8 text-beige leading-relaxed">
