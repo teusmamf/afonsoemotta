@@ -68,7 +68,7 @@ const ContactForm = () => {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="icone_phone_contactform" />
-                  <span className="text-gray-600">(45) 998828-0716</span>
+                  <span className="text-gray-600">(45) 98828-0716</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Building className="icone_building_contactform" />
