@@ -14,7 +14,7 @@ const styles = `
   }
   .hero-circle::before {
     content: '';
-    background: rgba(173, 216, 230, 0.1); /* lightBlue com 10% de opacidade */
+    background: rgba(173, 216, 230, 0.1);
     border-radius: 50%;
     width: 80%;
     height: 80%;
@@ -73,6 +73,7 @@ const Hero = () => {
             <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[700px] xl:h-[800px] flex items-center justify-center">
               <img 
                 src={heroImage}
+                loading='lazy'
                 alt="Ilustração de contabilidade"
                 className="w-full h-full object-contain scale-110 z-10" // z-10 para ficar acima do círculo
                 style={{ position: 'relative' }}
