@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ContactBtn from './contactbtn';
-import heroImage from '../../assets/hero_affonso&motta.png';
+import heroImage from '../../assets/hero_affonso&motta.webp';
 
 // Estilos CSS para o círculo
 const styles = `
