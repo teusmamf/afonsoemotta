@@ -48,10 +48,11 @@ const WhyUs = () => {
           {cards.map((card, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0}}
+              whileInView={{ opacity: 1,}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale:1.05 }}
+              viewport={{once:true,amount:0.3}}
               className="bg-lightGray p-6 rounded-xl shadow-lg hover:shadow-xl transition-all"
             >
               <div className="bg-beige/20 p-4 rounded-full inline-block mb-4">

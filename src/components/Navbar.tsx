@@ -1,7 +1,7 @@
-import React from 'react'
+import React,{lazy,Suspense} from 'react'
 import { Menu, X } from 'lucide-react'
 import { Link as ScrollLink } from 'react-scroll'
-import ContactBtn from './contactbtn'
+const ContactBtn = lazy(()=> import('./contactbtn'));
 import logonav from '../../assets/Logo- AeM- final_AeM-Logo-Principal-050D66.png'
 import '../index.css'
 
