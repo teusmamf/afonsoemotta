@@ -1,5 +1,9 @@
 import { FileText, ShoppingCart, Factory } from 'lucide-react';
-import ContactBtn from './contactbtn';
+import { lazy, Suspense } from 'react';
+const ContactBtn = lazy(()=> import('./contactbtn'));
+
+
+
 
 const Especialties = () => {
   const specialties = [

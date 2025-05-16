@@ -1,7 +1,7 @@
-import React from 'react';
+import React,{lazy,Suspense} from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Clock, Users, TrendingUp } from 'lucide-react';
-import ContactBtn from './contactbtn';
+const ContactBtn = lazy(()=> import('./contactbtn'));
 
 const WhyUs = () => {
   const cards = [

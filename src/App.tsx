@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import WhyUs from './components/WhyUs';
 import ContactForm from './components/ContactForm';
 import Services from './components/Services';
-import Footer from './components/Footer';
+const Footer = lazy(()=> import('./components/Footer'));
 import Testimonials from './components/especialties';
 const WhatsAppButton = lazy(() => import('./components/whatsappbtn'));
 import Especialties from './components/especialties';
